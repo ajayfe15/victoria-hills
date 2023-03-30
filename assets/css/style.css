@@ -57,6 +57,14 @@ section {
 	background: #37517e;
 }
 
+#preloader video {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+/*
 #preloader:before {
 	content: "";
 	position: fixed;
@@ -91,6 +99,7 @@ section {
 		transform: rotate(360deg);
 	}
 }
+*/
 
 /*--------------------------------------------------------------
 # Back to top button

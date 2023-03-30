@@ -68,7 +68,7 @@
 				<div class="commonHeading d-flex flex-column justify-content-center align-items-center">
 					<h2>VICTORIA HILLS</h2>
 					<p>TIMELESS LIFESTYLE AWAITS YOU</p>
-					<img src="assets/img/vicotoia-hills.png" alt="" class="img-fluid">
+					<img src="assets/img/heading-img/heading-element.png" alt="" class="img-fluid">
 				</div>
 
 				<div class="overviewContent">
@@ -107,14 +107,43 @@
 		</section>
 
 		<section class="plots creamBg" id="plots">
-			<div class="commonHeading d-flex flex-column justify-content-center align-items-center">
-				<h2>VICTORIA HILLS</h2>
-				<p>TIMELESS LIFESTYLE AWAITS YOU</p>
-				<img src="assets/img/vicotoia-hills.png" alt="" class="img-fluid">
+			<div class="container">
+				<div class="commonHeading d-flex flex-column justify-content-center align-items-center">
+					<h2>PLOTS</h2>
+					<p>TIMELESS HABITAT</p>
+					<img src="assets/img/heading-img/plot-element.png" alt="" class="img-fluid">
+				</div>
+			</div>
+
+
+		</section>
+
+		<section class="siteLayout creamBg" id="siteLayout">
+			<div class="container">
+				<div class="commonHeading d-flex flex-column justify-content-center align-items-center">
+					<h2>Site Layout</h2>
+					<img src="assets/img//heading-img/siteLayout.png" alt="" class="img-fluid">
+				</div>
+
+				<div class="sitemap">
+					<a href="assets/img/sitemap-big.jpg" class="sitemapImg">
+						<img src="assets/img/sitemap.jpg" class="img-fluid" alt="">
+					</a>
+				</div>
 			</div>
 		</section>
 
-		<section class="gallery" id="gallery"></section>
+		<section class="gallery" id="gallery">
+			<div class="container">
+				<div class="commonHeading d-flex flex-column justify-content-center align-items-center">
+					<h2>GALLERY</h2>
+					<p>TIMELESS OPULENCE</p>
+					<img src="assets/img//heading-img/plot-element.png" alt="" class="img-fluid">
+				</div>
+
+
+			</div>
+		</section>
 
 		<section class="villas" id="villas"></section>
 
@@ -214,7 +243,11 @@
 		</div>
 	</div>
 
-	<div id="preloader"></div>
+	<div id="preloader">
+		<video width="320" height="240" autoplay="" loop="" muted playsinline="">
+			<source src="assets/img/preloader.mp4" type="video/mp4">
+		</video>
+	</div>
 	<a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
 	<!-- Vendor JS Files -->
