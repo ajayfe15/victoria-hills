@@ -69,7 +69,7 @@
 		<section class="videoSection" id="#hero">
 			<video autoplay="" muted="" loop="" id="myVideo">
 				<source src="assets/img/desktop-video.mp4" class="d-none d-md-block" type="video/mp4">
-				<source src="assets/img/mobile-video.mp4" class="d-block d-md-none" type="video/mp4">
+				<source src="assets/img/mobile-video-updated.mp4" class="d-block d-md-none" type="video/mp4">
 			</video>
 		</section>
 
