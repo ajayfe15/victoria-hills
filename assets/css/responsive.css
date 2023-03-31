@@ -41,7 +41,8 @@
 	}
 
 	.gallerySlider {
-		padding: 0 15px;
+		padding: 0;
+		margin: 0 15px;
 		overflow: inherit;
 	}
 
@@ -99,10 +100,27 @@
 	}
 
 	.commonLayout .col-lg-6 {
-		padding: 0 15px;
+		padding: 0px 15px;
 	}
 
+	.slick-arrow {
+		position: absolute;
+		bottom: -35px;
+		z-index: 2;
+	}
 
+	.slick-next {
+		right: 0;
+	}
+
+	.copyright {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.siteAdrressBlock {
+		margin-top: 30px;
+	}
 }
 
 @media only screen and (min-device-width : 768px) and (max-device-width : 991px) {

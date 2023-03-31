@@ -72,7 +72,7 @@
 				<div class="commonHeading d-flex flex-column justify-content-center align-items-center">
 					<h2>VICTORIA HILLS</h2>
 					<p>TIMELESS LIFESTYLE AWAITS YOU</p>
-					<img src="assets/img/heading-img/heading-element.png" alt="" class="img-fluid">
+					<img src="assets/img/heading-img/heading-element.png" alt="" loading="lazy" class="img-fluid">
 				</div>
 
 				<div class="overviewContent">
@@ -88,22 +88,22 @@
 				<div class="row">
 					<div class="col-6 col-md-3">
 						<div class="overviewImgBox">
-							<img src="assets/img/overview-img/01.jpg" alt="" class="img-fluid">
+							<img src="assets/img/overview-img/01.jpg" alt="" loading="lazy" class="img-fluid">
 						</div>
 					</div>
 					<div class="col-6 col-md-3">
 						<div class="overviewImgBox">
-							<img src="assets/img/overview-img/02.jpg" alt="" class="img-fluid">
+							<img src="assets/img/overview-img/02.jpg" alt="" loading="lazy" class="img-fluid">
 						</div>
 					</div>
 					<div class="col-6 col-md-3">
 						<div class="overviewImgBox">
-							<img src="assets/img/overview-img/03.jpg" alt="" class="img-fluid">
+							<img src="assets/img/overview-img/03.jpg" alt="" loading="lazy" class="img-fluid">
 						</div>
 					</div>
 					<div class="col-6 col-md-3">
 						<div class="overviewImgBox">
-							<img src="assets/img/overview-img/04.jpg" alt="" class="img-fluid">
+							<img src="assets/img/overview-img/04.jpg" alt="" loading="lazy" class="img-fluid">
 						</div>
 					</div>
 				</div>
@@ -115,24 +115,24 @@
 				<div class="commonHeading d-flex flex-column justify-content-center align-items-center">
 					<h2>PLOTS</h2>
 					<p>TIMELESS HABITAT</p>
-					<img src="assets/img/heading-img/plot-element.png" alt="" class="img-fluid">
+					<img src="assets/img/heading-img/plot-element.png" alt="" loading="lazy" class="img-fluid">
 				</div>
 
 				<div class="commonLayout">
 					<div class="row align-items-center">
 						<div class="col-lg-6 order-lg-2">
-							<img src="assets/img/plot/1.jpg" class="img-fluid" alt="">
+							<img src="assets/img/plot/1.jpg" class="img-fluid" alt="" loading="lazy">
 						</div>
 						<div class="col-lg-6 order-lg-1">
 							<div class="smallImgWrapper d-flex flex-wrap gap-2">
 								<div class="img">
-									<img src="assets/img/plot/2.jpg" class="img-fluid" alt="">
+									<img src="assets/img/plot/2.jpg" class="img-fluid" alt="" loading="lazy">
 								</div>
 								<div class="img">
-									<img src="assets/img/plot/3.jpg" class="img-fluid" alt="">
+									<img src="assets/img/plot/3.jpg" class="img-fluid" alt="" loading="lazy">
 								</div>
 								<div class="img">
-									<img src="assets/img/plot/4.jpg" class="img-fluid" alt="">
+									<img src="assets/img/plot/4.jpg" class="img-fluid" alt="" loading="lazy">
 								</div>
 							</div>
 							<div class="commonLayoutContent right position-relative">
@@ -151,12 +151,12 @@
 			<div class="container">
 				<div class="commonHeading d-flex flex-column justify-content-center align-items-center">
 					<h2><span>Site</span> Layout</h2>
-					<img src="assets/img//heading-img/siteLayout.png" alt="" class="img-fluid">
+					<img src="assets/img//heading-img/siteLayout.png" alt="" loading="lazy" class="img-fluid">
 				</div>
 
 				<div class="sitemap">
 					<a href="assets/img/sitemap-big.jpg" class="sitemapImg">
-						<img src="assets/img/sitemap.jpg" class="img-fluid" alt="">
+						<img src="assets/img/sitemap.jpg" class="img-fluid" alt="" loading="lazy">
 					</a>
 				</div>
 			</div>
@@ -167,14 +167,34 @@
 				<div class="commonHeading d-flex flex-column justify-content-center align-items-center">
 					<h2>GALLERY</h2>
 					<p>TIMELESS OPULENCE</p>
-					<img src="assets/img//heading-img/plot-element.png" alt="" class="img-fluid">
+					<img src="assets/img//heading-img/plot-element.png" alt="" loading="lazy" class="img-fluid">
 				</div>
 			</div>
 
 			<div class="gallerySlider">
+				<a href="assets/img/desktop-video.mp4" class="item gallerySliderVideo">
+					<div class="itemBox position-relative">
+						<img src="assets/img/gallery/1.jpg" alt="" loading="lazy" class="img-fluid">
+						<div class="itemBoxContent">
+							<h3>VICTORIAN ERA</h3>
+							<p>The Victorian era was a time that gave us boundless monumental structures, an artistic approach towards life. and on experience that hos transcended through generations. An era that has stayed timeless with its eternal appeal.</p>
+						</div>
+					</div>
+				</a>
+
+				<a href="assets/img/desktop-video.mp4" class="item gallerySliderVideo">
+					<div class="itemBox position-relative">
+						<img src="assets/img/gallery/1.jpg" alt="" loading="lazy" class="img-fluid">
+						<div class="itemBoxContent">
+							<h3>VICTORIAN ERA</h3>
+							<p>The Victorian era was a time that gave us boundless monumental structures, an artistic approach towards life. and on experience that hos transcended through generations. An era that has stayed timeless with its eternal appeal.</p>
+						</div>
+					</div>
+				</a>
+
 				<div class="item">
 					<div class="itemBox position-relative">
-						<img src="assets/img/gallery/1.jpg" alt="" class="img-fluid">
+						<img src="assets/img/gallery/1.jpg" alt="" loading="lazy" class="img-fluid">
 						<div class="itemBoxContent">
 							<h3>VICTORIAN ERA</h3>
 							<p>The Victorian era was a time that gave us boundless monumental structures, an artistic approach towards life. and on experience that hos transcended through generations. An era that has stayed timeless with its eternal appeal.</p>
@@ -184,27 +204,7 @@
 
 				<div class="item">
 					<div class="itemBox position-relative">
-						<img src="assets/img/gallery/1.jpg" alt="" class="img-fluid">
-						<div class="itemBoxContent">
-							<h3>VICTORIAN ERA</h3>
-							<p>The Victorian era was a time that gave us boundless monumental structures, an artistic approach towards life. and on experience that hos transcended through generations. An era that has stayed timeless with its eternal appeal.</p>
-						</div>
-					</div>
-				</div>
-
-				<div class="item">
-					<div class="itemBox position-relative">
-						<img src="assets/img/gallery/1.jpg" alt="" class="img-fluid">
-						<div class="itemBoxContent">
-							<h3>VICTORIAN ERA</h3>
-							<p>The Victorian era was a time that gave us boundless monumental structures, an artistic approach towards life. and on experience that hos transcended through generations. An era that has stayed timeless with its eternal appeal.</p>
-						</div>
-					</div>
-				</div>
-
-				<div class="item">
-					<div class="itemBox position-relative">
-						<img src="assets/img/gallery/1.jpg" alt="" class="img-fluid">
+						<img src="assets/img/gallery/1.jpg" alt="" loading="lazy" class="img-fluid">
 						<div class="itemBoxContent">
 							<h3>VICTORIAN ERA</h3>
 							<p>The Victorian era was a time that gave us boundless monumental structures, an artistic approach towards life. and on experience that hos transcended through generations. An era that has stayed timeless with its eternal appeal.</p>
@@ -219,24 +219,24 @@
 				<div class="commonHeading d-flex flex-column justify-content-center align-items-center">
 					<h2>VILLAS</h2>
 					<p>TIMELESS HABITAT</p>
-					<img src="assets/img//heading-img/plot-element.png" alt="" class="img-fluid">
+					<img src="assets/img//heading-img/plot-element.png" alt="" loading="lazy" class="img-fluid">
 				</div>
 
 				<div class="commonLayout">
 					<div class="row align-items-center">
 						<div class="col-lg-6">
-							<img src="assets/img/plot/1.jpg" class="img-fluid" alt="">
+							<img src="assets/img/plot/1.jpg" class="img-fluid" alt="" loading="lazy">
 						</div>
 						<div class="col-lg-6">
 							<div class="smallImgWrapper d-flex flex-wrap gap-2">
 								<div class="img">
-									<img src="assets/img/plot/2.jpg" class="img-fluid" alt="">
+									<img src="assets/img/plot/2.jpg" class="img-fluid" alt="" loading="lazy">
 								</div>
 								<div class="img">
-									<img src="assets/img/plot/3.jpg" class="img-fluid" alt="">
+									<img src="assets/img/plot/3.jpg" class="img-fluid" alt="" loading="lazy">
 								</div>
 								<div class="img">
-									<img src="assets/img/plot/4.jpg" class="img-fluid" alt="">
+									<img src="assets/img/plot/4.jpg" class="img-fluid" alt="" loading="lazy">
 								</div>
 							</div>
 							<div class="commonLayoutContent left position-relative">
@@ -254,7 +254,7 @@
 				<div class="commonHeading d-flex flex-column justify-content-center align-items-center">
 					<h2>CONNECTIVITY</h2>
 					<p>TAKES YOU EVERYWHERE</p>
-					<img src="assets/img//heading-img/plot-element.png" alt="" class="img-fluid">
+					<img src="assets/img//heading-img/plot-element.png" alt="" loading="lazy" class="img-fluid">
 				</div>
 
 				<div class="overviewContent">
@@ -275,36 +275,36 @@
 			<div class="container">
 				<div class="commonHeading d-flex flex-column justify-content-center align-items-center">
 					<h2>Prominent Tourist Destinations In Vicinity</h2>
-					<img src="assets/img//heading-img/plot-element.png" alt="" class="img-fluid">
+					<img src="assets/img//heading-img/plot-element.png" alt="" loading="lazy" class="img-fluid">
 				</div>
 
 				<div class="touristDestinationWrapper parent">
 					<div class="tours div1">
-						<img src="assets/img/destination/1.jpg" alt="" class="img-fluid">
+						<img src="assets/img/destination/1.jpg" alt="" loading="lazy" class="img-fluid">
 						<div class="toursContent">
 							<p>Sonalpada Dam</p>
 						</div>
 					</div>
 					<div class="tours div2">
-						<img src="assets/img/destination/2.jpg" alt="" class="img-fluid">
+						<img src="assets/img/destination/2.jpg" alt="" loading="lazy" class="img-fluid">
 						<div class="toursContent">
 							<p>Kothligad Fort</p>
 						</div>
 					</div>
 					<div class="tours div3">
-						<img src="assets/img/destination/3.jpg" alt="" class="img-fluid">
+						<img src="assets/img/destination/3.jpg" alt="" loading="lazy" class="img-fluid">
 						<div class="toursContent">
 							<p>Bhimashankar Wildlife Reserve</p>
 						</div>
 					</div>
 					<div class="tours div4">
-						<img src="assets/img/destination/4.jpg" alt="" class="img-fluid">
+						<img src="assets/img/destination/4.jpg" alt="" loading="lazy" class="img-fluid">
 						<div class="toursContent">
 							<p>ND's Film Studio</p>
 						</div>
 					</div>
 					<div class="tours div5">
-						<img src="assets/img/destination/5.jpg" alt="" class="img-fluid">
+						<img src="assets/img/destination/5.jpg" alt="" loading="lazy" class="img-fluid">
 						<div class="toursContent">
 							<p>Pandava Caves</p>
 						</div>
@@ -318,7 +318,7 @@
 				<div class="commonHeading d-flex flex-column justify-content-center align-items-center">
 					<h2><span>ABOUT</span> GREENCITY</h2>
 					<p>WISH TO LIVE A LIFE FULL OF SERENITY</p>
-					<img src="assets/img//heading-img/plot-element.png" alt="" class="img-fluid">
+					<img src="assets/img//heading-img/plot-element.png" alt="" loading="lazy" class="img-fluid">
 				</div>
 
 				<div class="aboutUsContent text-center">
@@ -328,14 +328,14 @@
 				</div>
 
 				<div class="row mt-5 justify-content-center">
-					<div class="col-md-3">
+					<div class="col-6 col-md-3">
 						<div class="counterBox text-center">
 							<h3><span>6</span>+</h3>
 							<p>Weekend Home Projects</p>
 						</div>
 					</div>
 
-					<div class="col-md-3">
+					<div class="col-6 col-md-3">
 						<div class="counterBox text-center">
 							<h3><span>80</span>+</h3>
 							<p>Happy Customers</p>
@@ -356,7 +356,7 @@
 			<div class="container">
 				<div class="commonHeading d-flex flex-column justify-content-center align-items-center">
 					<h2>GET IN TOUCH</h2>
-					<img src="assets/img//heading-img/heading-element.png" alt="" class="img-fluid">
+					<img src="assets/img//heading-img/heading-element.png" alt="" loading="lazy" class="img-fluid">
 				</div>
 
 				<div class="row justify-content-center">
@@ -398,10 +398,10 @@
 		<div class="footer-top">
 			<div class="container ">
 				<div class="row justify-content-center">
-					<div class="col-md-9">
+					<div class="col-md-10 col-lg-9">
 						<div class="row justify-content-between align-items-center">
-							<div class="col-md-6">
-								<img src="https://via.placeholder.com/150x90" class="img-fluid" alt="">
+							<div class="col-md-3">
+								<img src="assets/img/greenCityLogoNew.png" class="img-fluid" alt="" loading="lazy">
 							</div>
 							<div class="col-md-6">
 								<div class="siteAdrressBlock">
@@ -491,6 +491,9 @@
 		</div>
 	</div>
 
+	<div class="stickyIcons">
+
+	</div>
 	<div id="preloader">
 		<video width="320" height="240" autoplay="" loop="" muted playsinline="">
 			<source src="assets/img/preloader.mp4" type="video/mp4">
