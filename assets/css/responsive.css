@@ -42,6 +42,7 @@
 
 	.gallerySlider {
 		padding: 0 15px;
+		overflow: inherit;
 	}
 
 	.gallerySlider .slick-slide.slick-center .itemBoxContent {
@@ -92,6 +93,15 @@
 		right: -300px;
 		width: 300px;
 	}
+
+	#header.header-scrolled .logo img {
+		max-height: 100px;
+	}
+
+	.commonLayout .col-lg-6 {
+		padding: 0 15px;
+	}
+
 
 }
 
