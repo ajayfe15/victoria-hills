@@ -178,7 +178,7 @@
 			</div>
 
 			<div class="gallerySlider">
-				<a href="assets/img/desktop-video.mp4" class="item gallerySliderVideo">
+				<a href="assets/img/desktop-video.mp4" class="item">
 					<div class="itemBox position-relative">
 						<img src="assets/img/gallery/1-updated.jpg" alt="" loading="lazy" class="img-fluid">
 						<div class="itemBoxContent">
@@ -191,6 +191,9 @@
 				<a href="assets/img/desktop-video.mp4" class="item gallerySliderVideo">
 					<div class="itemBox position-relative">
 						<img src="assets/img/gallery/2.jpg" alt="" loading="lazy" class="img-fluid">
+						<div class="playButton">
+							<img src="assets/img/play.png" alt="" loading="lazy" class="img-fluid">
+						</div>
 						<div class="itemBoxContent">
 							<h3>VICTORIAN ERA</h3>
 							<p>The Victorian era was a time that gave us boundless monumental structures, an artistic approach towards life. and on experience that hos transcended through generations. An era that has stayed timeless with its eternal appeal.</p>
@@ -198,7 +201,7 @@
 					</div>
 				</a>
 
-				<div class="item">
+				<a href="assets/img/desktop-video.mp4" class="item">
 					<div class="itemBox position-relative">
 						<img src="assets/img/gallery/3.jpg" alt="" loading="lazy" class="img-fluid">
 						<div class="itemBoxContent">
@@ -206,17 +209,20 @@
 							<p>The Victorian era was a time that gave us boundless monumental structures, an artistic approach towards life. and on experience that hos transcended through generations. An era that has stayed timeless with its eternal appeal.</p>
 						</div>
 					</div>
-				</div>
+				</a>
 
-				<div class="item">
+				<a href="assets/img/desktop-video.mp4" class="item gallerySliderVideo">
 					<div class="itemBox position-relative">
 						<img src="assets/img/gallery/1-updated.jpg" alt="" loading="lazy" class="img-fluid">
+						<div class="playButton">
+							<img src="assets/img/play.png" alt="" loading="lazy" class="img-fluid">
+						</div>
 						<div class="itemBoxContent">
 							<h3>VICTORIAN ERA</h3>
 							<p>The Victorian era was a time that gave us boundless monumental structures, an artistic approach towards life. and on experience that hos transcended through generations. An era that has stayed timeless with its eternal appeal.</p>
 						</div>
 					</div>
-				</div>
+				</a>
 			</div>
 		</section>
 
@@ -336,21 +342,21 @@
 				<div class="row mt-5 justify-content-center">
 					<div class="col-6 col-md-3">
 						<div class="counterBox text-center">
-							<h3><span>6</span>+</h3>
+							<h3><span class="counter">6</span>+</h3>
 							<p>Weekend Home Projects</p>
 						</div>
 					</div>
 
 					<div class="col-6 col-md-3">
 						<div class="counterBox text-center">
-							<h3><span>80</span>+</h3>
+							<h3><span class="counter">80</span>+</h3>
 							<p>Happy Customers</p>
 						</div>
 					</div>
 
 					<div class="col-md-3">
 						<div class="counterBox text-center">
-							<h3><span>100</span>+</h3>
+							<h3><span class="counter">100</span>+</h3>
 							<p>Satisfaction Rate</p>
 						</div>
 					</div>
@@ -516,6 +522,8 @@
 
 	<!-- Vendor JS Files -->
 	<script src="assets/js/jquery-3.6.0.min.js"></script>
+	<script src="assets/js/jquery.waypoints.min.js"></script>
+	<script src="assets/js/jquery.counterup.js"></script>
 	<script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 	<script src="assets/vendor/slick-slider/slick.min.js"></script>
 	<script src="assets/vendor/glightbox/js/glightbox.min.js"></script>

@@ -840,6 +840,14 @@ textarea {
 	transition: all 0.2s linear;
 }
 
+.playButton {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	z-index: 2;
+}
+
 .gallerySlider .slick-slide.slick-center .itemBox:after {
 	opacity: 0;
 }
