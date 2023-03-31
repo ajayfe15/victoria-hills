@@ -9,6 +9,12 @@
 	<meta content="" name="description">
 	<meta content="" name="keywords">
 
+	<meta property="og:title" content="Victoria Hills" />
+	<meta property="og:description" content="" />
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="" />
+	<meta property="og:image" content="assets/img/" />
+
 	<!-- Favicons -->
 	<link href="assets/img/favicon.png" rel="icon">
 
@@ -174,7 +180,7 @@
 			<div class="gallerySlider">
 				<a href="assets/img/desktop-video.mp4" class="item gallerySliderVideo">
 					<div class="itemBox position-relative">
-						<img src="assets/img/gallery/1.jpg" alt="" loading="lazy" class="img-fluid">
+						<img src="assets/img/gallery/1-updated.jpg" alt="" loading="lazy" class="img-fluid">
 						<div class="itemBoxContent">
 							<h3>VICTORIAN ERA</h3>
 							<p>The Victorian era was a time that gave us boundless monumental structures, an artistic approach towards life. and on experience that hos transcended through generations. An era that has stayed timeless with its eternal appeal.</p>
@@ -184,7 +190,7 @@
 
 				<a href="assets/img/desktop-video.mp4" class="item gallerySliderVideo">
 					<div class="itemBox position-relative">
-						<img src="assets/img/gallery/1.jpg" alt="" loading="lazy" class="img-fluid">
+						<img src="assets/img/gallery/2.jpg" alt="" loading="lazy" class="img-fluid">
 						<div class="itemBoxContent">
 							<h3>VICTORIAN ERA</h3>
 							<p>The Victorian era was a time that gave us boundless monumental structures, an artistic approach towards life. and on experience that hos transcended through generations. An era that has stayed timeless with its eternal appeal.</p>
@@ -194,7 +200,7 @@
 
 				<div class="item">
 					<div class="itemBox position-relative">
-						<img src="assets/img/gallery/1.jpg" alt="" loading="lazy" class="img-fluid">
+						<img src="assets/img/gallery/3.jpg" alt="" loading="lazy" class="img-fluid">
 						<div class="itemBoxContent">
 							<h3>VICTORIAN ERA</h3>
 							<p>The Victorian era was a time that gave us boundless monumental structures, an artistic approach towards life. and on experience that hos transcended through generations. An era that has stayed timeless with its eternal appeal.</p>
@@ -204,7 +210,7 @@
 
 				<div class="item">
 					<div class="itemBox position-relative">
-						<img src="assets/img/gallery/1.jpg" alt="" loading="lazy" class="img-fluid">
+						<img src="assets/img/gallery/1-updated.jpg" alt="" loading="lazy" class="img-fluid">
 						<div class="itemBoxContent">
 							<h3>VICTORIAN ERA</h3>
 							<p>The Victorian era was a time that gave us boundless monumental structures, an artistic approach towards life. and on experience that hos transcended through generations. An era that has stayed timeless with its eternal appeal.</p>
@@ -254,7 +260,7 @@
 				<div class="commonHeading d-flex flex-column justify-content-center align-items-center">
 					<h2>CONNECTIVITY</h2>
 					<p>TAKES YOU EVERYWHERE</p>
-					<img src="assets/img//heading-img/plot-element.png" alt="" loading="lazy" class="img-fluid">
+					<img src="assets/img//heading-img/siteLayout.png" alt="" loading="lazy" class="img-fluid">
 				</div>
 
 				<div class="overviewContent">
@@ -398,7 +404,7 @@
 		<div class="footer-top">
 			<div class="container ">
 				<div class="row justify-content-center">
-					<div class="col-md-10 col-lg-9">
+					<div class="col-md-11">
 						<div class="row justify-content-between align-items-center">
 							<div class="col-md-3">
 								<img src="assets/img/greenCityLogoNew.png" class="img-fluid" alt="" loading="lazy">
@@ -491,8 +497,13 @@
 		</div>
 	</div>
 
-	<div class="stickyIcons">
-
+	<div class="stickyIcons position-fixed">
+		<a href="">
+			<img src="assets/img/whatsapp-icon.png" class="img-fluid" loading="lazy">
+		</a>
+		<a href="">
+			<img src="assets/img/call.png" class="img-fluid" loading="lazy">
+		</a>
 	</div>
 	<div id="preloader">
 		<video width="320" height="240" autoplay="" loop="" muted playsinline="">

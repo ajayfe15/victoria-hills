@@ -172,6 +172,10 @@ section {
 	transition: all 0.2s linear;
 }
 
+#header.header-scrolled .logo img {
+	max-height: 100px;
+}
+
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
@@ -806,6 +810,10 @@ textarea {
 	overflow: hidden;
 }
 
+.gallerySlider .slick-slide img {
+	width: 100%;
+}
+
 .gallerySlider .slick-list {
 	margin: 0 -100px;
 	padding: 50px 0 !important;
@@ -956,11 +964,11 @@ textarea {
 }
 
 .commonLayoutContent.right {
-	padding: 30px 0px 30px 60px;
+	padding: 50px 0px 50px 60px;
 }
 
 .commonLayoutContent.left {
-	padding: 40px 30px 40px 0px;
+	padding: 50px 30px 50px 0px;
 }
 
 .commonLayout .col-lg-6 {
@@ -992,4 +1000,21 @@ textarea {
 
 .commonLayoutContent p {
 	font-size: 14px;
+}
+
+.stickyIcons {
+	bottom: 25%;
+	right: 0;
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+}
+
+.stickyIcons a {
+	box-shadow: 1px 2px 14px rgba(0, 0, 0, 0.8);
+	border-radius: 50%;
+}
+
+.stickyIcons a img {
+	width: 40px;
 }
