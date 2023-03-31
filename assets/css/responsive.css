@@ -1,1 +1,48 @@
-@media(max-width:767px) {}
+@media(max-width:767px) {
+
+	section {
+		padding: 50px 0;
+	}
+
+	.commonHeading h2 {
+		font-size: 30px;
+	}
+
+	.smallImgWrapper {
+		margin-top: 10px;
+	}
+
+	.commonLayoutContent.right:after,
+	.commonLayoutContent.left:after {
+		display: none;
+	}
+
+	.commonLayoutContent.right,
+	.commonLayoutContent.left {
+		padding: 15px 15px;
+	}
+
+	.itemBoxContent {
+		position: relative;
+		top: 0;
+		right: 0;
+		left: auto;
+		width: 100%;
+		padding: 20px 20px;
+	}
+
+	.gallerySlider {
+		padding: 0 15px;
+	}
+
+	.gallerySlider .slick-slide.slick-center .itemBoxContent {
+		position: relative;
+	}
+
+	.gallerySlider .slick-list {
+		margin: 0;
+		padding: 0px 0 !important;
+	}
+}
+
+@media only screen and (min-device-width : 767x) and (max-device-width : 991px) {}
