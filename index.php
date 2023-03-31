@@ -46,7 +46,7 @@
 
 			<nav id="navbar" class="navbar">
 				<ul>
-					<li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+					<li><a class="nav-link scrollto" href="#hero">Home</a></li>
 					<li><a class="nav-link scrollto" href="#overview">Overview</a></li>
 					<li><a class="nav-link scrollto" href="#plots">Plots</a></li>
 					<li><a class="nav-link scrollto" href="#gallery">Gallery</a></li>
@@ -87,22 +87,22 @@
 
 			<div class="container-fluid overviewImgBoxWrapper">
 				<div class="row">
-					<div class="col-md-3">
+					<div class="col-6 col-md-3">
 						<div class="overviewImgBox">
 							<img src="assets/img/overview-img/01.jpg" alt="" class="img-fluid">
 						</div>
 					</div>
-					<div class="col-md-3">
+					<div class="col-6 col-md-3">
 						<div class="overviewImgBox">
 							<img src="assets/img/overview-img/02.jpg" alt="" class="img-fluid">
 						</div>
 					</div>
-					<div class="col-md-3">
+					<div class="col-6 col-md-3">
 						<div class="overviewImgBox">
 							<img src="assets/img/overview-img/03.jpg" alt="" class="img-fluid">
 						</div>
 					</div>
-					<div class="col-md-3">
+					<div class="col-6 col-md-3">
 						<div class="overviewImgBox">
 							<img src="assets/img/overview-img/04.jpg" alt="" class="img-fluid">
 						</div>
@@ -379,7 +379,7 @@
 							</div>
 
 							<div class="col-md-6 mb-4">
-								<textarea name="form-control" id="" rows="1" placeholder="Message"></textarea>
+								<textarea id="message3" name="message3" rows="1" placeholder="Message"></textarea>
 							</div>
 
 							<div class="text-center ">
@@ -436,19 +436,19 @@
 		<form autocomplete="off" class="lead_form" method="POST">
 			<div class="rows">
 				<div class="col-12">
-					<input autocomplete="off" type="text" class="form-control capture" placeholder="NAME*" name="name2" id="name2" required="">
+					<input autocomplete="off" type="text" class="form-control capture" placeholder="Name*" name="name2" id="name2" required="">
 					<div class="error_msg error" id="name2_error">Please Enter Your Name</div>
 				</div>
 				<div class="col-12">
-					<input autocomplete="off" type="tel" class="form-control capture" placeholder="MOBILE NO*" name="mobile2" id="mobile2" required="" onkeypress="return alpha(event)" maxlength="10">
+					<input autocomplete="off" type="tel" class="form-control capture" placeholder="Mobile No*" name="mobile2" id="mobile2" required="" onkeypress="return alpha(event)" maxlength="10">
 					<div class="error_msg error" id="mobile2_error">Please Enter Your Mobile Number</div>
 				</div>
 				<div class="col-12">
-					<input autocomplete="off" type="email" class="form-control capture" placeholder="EMAIL ID*" name="email2" id="email2" required="">
+					<input autocomplete="off" type="email" class="form-control capture" placeholder="Email ID*" name="email2" id="email2" required="">
 					<div class="error_msg error" id="email2_error">Please Enter Your Email</div>
 				</div>
 				<div class="col-12">
-					<textarea name="form-control" id="" rows="3" placeholder="YOUR MESSAGE"></textarea>
+					<textarea id="message2" name="message2" rows="3" placeholder="Message"></textarea>
 				</div>
 
 				<div class="text-center">
@@ -469,16 +469,19 @@
 					<h2>Enquire Now</h2>
 					<form autocomplete="off" class="lead_form" method="POST">
 						<div class="col-12">
-							<input autocomplete="off" type="text" class="form-control capture" placeholder="NAME*" name="name1" id="name1" required="">
+							<input autocomplete="off" type="text" class="form-control capture" placeholder="Name*" name="name1" id="name1" required="">
 							<div class="error_msg error" id="name1_error">Please Enter Your Name</div>
 						</div>
 						<div class="col-12">
-							<input autocomplete="off" type="tel" class="form-control capture" placeholder="MOBILE NO*" name="mobile1" id="mobile1" required="" onkeypress="return alpha(event)" maxlength="10">
+							<input autocomplete="off" type="tel" class="form-control capture" placeholder="Mobile No*" name="mobile1" id="mobile1" required="" onkeypress="return alpha(event)" maxlength="10">
 							<div class="error_msg error" id="mobile1_error">Please Enter Your Mobile Number</div>
 						</div>
 						<div class="col-12">
-							<input autocomplete="off" type="email" class="form-control capture" placeholder="EMAIL ID*" name="email1" id="email1" required="">
+							<input autocomplete="off" type="email" class="form-control capture" placeholder="Email ID*" name="email1" id="email1" required="">
 							<div class="error_msg error" id="email1_error">Please Enter Your Email</div>
+						</div>
+						<div class="col-12">
+							<textarea id="message1" name="message1" rows="3" placeholder="Message"></textarea>
 						</div>
 						<div class="text-center">
 							<button class="btn btn-default" type="submit" id="form1"> <span>Submit</span> </button>

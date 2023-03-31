@@ -29,6 +29,7 @@ section {
 
 .commonHeading {
 	margin-bottom: 50px;
+	text-align: center;
 }
 
 .commonHeading h2 {
@@ -423,6 +424,16 @@ section {
 	overflow: hidden;
 }
 
+.videoSection:after {
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.35);
+	top: 0;
+	left: 0;
+}
+
 .videoSection video {
 	position: absolute;
 	top: 0;
@@ -591,11 +602,10 @@ button.btn-default span:hover {
 }
 
 .modal h2 {
-	font-family: 'TrajanProBold_0';
-	color: #28783c;
+	color: #C69651;
 	text-align: center;
 	text-transform: uppercase;
-	font-size: 25px;
+	font-size: 30px;
 	margin-bottom: 30px;
 }
 
@@ -681,6 +691,10 @@ button.btn-default span:hover {
 textarea {
 	height: 60px;
 	resize: none;
+	width: 100%;
+	border-top: 0;
+	border-left: 0;
+	border-right: 0;
 }
 
 .sidebar-contact textarea,

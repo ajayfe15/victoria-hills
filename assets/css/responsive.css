@@ -43,6 +43,44 @@
 		margin: 0;
 		padding: 0px 0 !important;
 	}
+
+	.overviewImgBox img {
+		height: 225px;
+		object-fit: cover;
+	}
+
+	.overviewImgBoxWrapper .col-md-3:nth-child(2) {
+		transform: translateY(30px);
+	}
+
+	.overviewImgBoxWrapper .col-md-3:nth-child(4) {
+		transform: translateY(30px);
+	}
+
+	/*
+	.overviewImgBox {
+		margin-top: 30px;
+	}
+*/
+
+	.overviewImgBoxWrapper .col-6:nth-child(1) .overviewImgBox {
+		margin-bottom: 30px;
+	}
+
+	.parent {
+		display: block;
+	}
+
+	.tours + .tours {
+		margin-top: 15px;
+	}
+
+	.overview {
+		padding: 50px 0 100px;
+	}
+
 }
 
 @media only screen and (min-device-width : 767x) and (max-device-width : 991px) {}
+
+@media(min-width:1200px) {}

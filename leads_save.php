@@ -4,14 +4,15 @@ include('admin/config.php');
 $name = !empty($_POST['name'])?$_POST['name']:NULL;
 $email = !empty($_POST['email'])?$_POST['email']:NULL;
 $mobile = !empty($_POST['mobile'])?$_POST['mobile']:NULL;
+$message = !empty($_POST['message'])?$_POST['message']:NULL;
 
 $utm_source = !empty($_POST['utm_source'])?$_POST['utm_source']:NULL;
 $utm_medium = !empty($_POST['utm_medium'])?$_POST['utm_medium']:NULL;
 $utm_campaign = !empty($_POST['utm_campaign'])?$_POST['utm_campaign']:NULL;
 $utm_term = !empty($_POST['utm_term'])?$_POST['utm_term']:NULL;
 
- $sql = "INSERT INTO `leads` (`name`, `email`, `mobile`, `utm_source`, `utm_medium`, `utm_campaign`,`utm_term`, `created_at`) VALUES
-('".$name."','".$email."', '".$mobile."', '".$utm_source."', '".$utm_medium."', '".$utm_campaign."', '".$utm_term."', now())";
+ $sql = "INSERT INTO `leads` (`name`, `email`, `mobile`, `message`, `utm_source`, `utm_medium`, `utm_campaign`,`utm_term`, `created_at`) VALUES
+('".$name."','".$email."', '".$mobile."', '".$message."', '".$utm_source."', '".$utm_medium."', '".$utm_campaign."', '".$utm_term."', now())";
 
 if (mysqli_query($db, $sql)) 
 { 

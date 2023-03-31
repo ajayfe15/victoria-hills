@@ -5,6 +5,7 @@ $(document).ready(function () {
 		var name = $.trim($('#name1').val());
 		var email = $.trim($('#email1').val());
 		var mobile = $.trim($('#mobile1').val());
+		var message = $.trim($('#message1').val());
 		var namePattern = /^([\s\.]?[a-zA-Z]+)+$/;
 		var phonePattern = /^[0-9]*$/;
 		var EmailPattern = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/i;
@@ -47,7 +48,7 @@ $(document).ready(function () {
 
 		if (flag == 0) {
 			$("#form1 span").html('Please Wait...');
-			$('#form1').prop('disabled', true);
+			//			$('#form1').prop('disabled', true);
 			// $('#otp-modal').modal('show');
 			// sendOtp(mobile);
 
@@ -69,6 +70,7 @@ $(document).ready(function () {
 				name: name,
 				email: email,
 				mobile: mobile,
+				message: message,
 				utm_source: utm_source,
 				utm_medium: utm_medium,
 				utm_campaign: utm_campaign,
@@ -80,16 +82,15 @@ $(document).ready(function () {
 				url: 'leads_save.php',
 				data: data,
 				beforeSend: function (result) {
-					$('#form1').val('Wait..');
+					$("#form1 span").html('Please Wait...');
+					$('#form1').prop('disabled', true);
 				},
 				success: function (result) {
 
 					if (result == 1) {
-						// $('#otp-modal').modal('hide');
 						window.location.replace("thank-you.php");
-						//						$('#form1').prop('disabled', false);
 					} else if (result == 0) {
-						$('#form1').prop('disabled', false);
+						$('#form1').prop('disabled', true);
 						$('#form1').val('Error');
 						alert('Something went wrong');
 					}
@@ -99,13 +100,6 @@ $(document).ready(function () {
 					$('#form1').prop('disabled', false);
 				}
 			});
-			//         } else {
-			//             $('#otp_verification_msg').html(' ').append('Incorrect OTP');
-			//         }
-			//     } else {
-			//         $('#otp_verification_msg').html(' ').append('Please Enter Otp');
-			//     }
-			// });
 		}
 
 	});
@@ -113,10 +107,10 @@ $(document).ready(function () {
 
 	$('#form2').on('click', function (e) {
 		e.preventDefault();
-		$('#form2').prop('disabled', true);
 		var name = $.trim($('#name2').val());
 		var email = $.trim($('#email2').val());
 		var mobile = $.trim($('#mobile2').val());
+		var message = $.trim($('#message2').val());
 		var EmailPattern = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/i;
 		var phonePattern = /^[0-9]*$/;
 		var namePattern = /^([\s\.]?[a-zA-Z]+)+$/;
@@ -158,30 +152,11 @@ $(document).ready(function () {
 		}
 
 		if (flag == 0) {
-			$("#form2 span").html('Please Wait...');
-			$('#form2').prop('disabled', true);
-			// $('#otp-modal').modal('show');
-			// sendOtp(mobile);
-
-			// $('#verifyOTPBtn').on('click', function (e) {
-			//     var first = $('#firstdigit').val();
-			//     var second = $('#secondtdigit').val();
-			//     var third = $('#thirddigit').val();
-			//     var fourth = $('#fourdigit').val();
-
-			//     var otp1 = $('#hiddenOTPField').val();
-			//     var otp2 = first + second + third + fourth;
-
-			//     otp1 = parseInt(otp1);
-			//     otp2 = parseInt(otp2);
-
-			//     if (first || second || third || fourth) {
-			//         if (otp1 == otp2) {
-
 			var data = {
 				name: name,
 				email: email,
 				mobile: mobile,
+				message: message,
 				utm_source: utm_source,
 				utm_medium: utm_medium,
 				utm_campaign: utm_campaign,
@@ -193,16 +168,14 @@ $(document).ready(function () {
 				url: 'leads_save.php',
 				data: data,
 				beforeSend: function (result) {
-					$('#form2').val('Wait..');
+					$("#form2 span").html('Please Wait...');
+					$('#form2').prop('disabled', true);
 				},
 				success: function (result) {
-
 					if (result == 1) {
-						// $('#otp-modal').modal('hide');
 						window.location.replace("thank-you.php");
-						//						$('#form2').prop('disabled', false);
 					} else if (result == 0) {
-						$('#form2').prop('disabled', false);
+						$('#form2').prop('disabled', true);
 						$('#form2').val('Error');
 						alert('Something went wrong');
 					}
@@ -212,13 +185,6 @@ $(document).ready(function () {
 					$('#form2').val('Error');
 				}
 			});
-			//         } else {
-			//             $('#otp_verification_msg').html(' ').append('Incorrect OTP');
-			//         }
-			//     } else {
-			//         $('#otp_verification_msg').html(' ').append('Please Enter Otp');
-			//     }
-			// });
 		}
 	});
 
@@ -228,6 +194,7 @@ $(document).ready(function () {
 		var name = $.trim($('#name3').val());
 		var email = $.trim($('#email3').val());
 		var mobile = $.trim($('#mobile3').val());
+		var message = $.trim($('#message3').val());
 		var EmailPattern = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/i;
 		var phonePattern = /^[0-9]*$/;
 		var namePattern = /^([\s\.]?[a-zA-Z]+)+$/;
@@ -269,30 +236,11 @@ $(document).ready(function () {
 		}
 
 		if (flag == 0) {
-			$("#form3 span").html('Please Wait...');
-			$('#form3').prop('disabled', true);
-			// $('#otp-modal').modal('show');
-			// sendOtp(mobile);
-
-			// $('#verifyOTPBtn').on('click', function (e) {
-			//     var first = $('#firstdigit').val();
-			//     var second = $('#secondtdigit').val();
-			//     var third = $('#thirddigit').val();
-			//     var fourth = $('#fourdigit').val();
-
-			//     var otp1 = $('#hiddenOTPField').val();
-			//     var otp2 = first + second + third + fourth;
-
-			//     otp1 = parseInt(otp1);
-			//     otp2 = parseInt(otp2);
-
-			//     if (first || second || third || fourth) {
-			//         if (otp1 == otp2) {
-
 			var data = {
 				name: name,
 				email: email,
 				mobile: mobile,
+				message: message,
 				utm_source: utm_source,
 				utm_medium: utm_medium,
 				utm_campaign: utm_campaign,
@@ -304,15 +252,14 @@ $(document).ready(function () {
 				url: 'leads_save.php',
 				data: data,
 				beforeSend: function (result) {
-					$('#form3').val('Wait..');
+					$("#form3 span").html('Please Wait...');
+					$('#form3').prop('disabled', true);
 				},
 				success: function (result) {
 					if (result == 1) {
-						// $('#otp-modal').modal('hide');
 						window.location.replace("thank-you.php");
-						//						$('#form3').prop('disabled', false);
 					} else if (result == 0) {
-						$('#form3').prop('disabled', false);
+						$('#form3').prop('disabled', true);
 						$('#form3').val('Error');
 						alert('Something went wrong');
 					}
@@ -322,13 +269,6 @@ $(document).ready(function () {
 					$('#form3').val('Error');
 				}
 			});
-			//         } else {
-			//             $('#otp_verification_msg').html(' ').append('Incorrect OTP');
-			//         }
-			//     } else {
-			//         $('#otp_verification_msg').html(' ').append('Please Enter Otp');
-			//     }
-			// });
 		}
 	});
 
