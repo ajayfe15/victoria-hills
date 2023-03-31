@@ -164,8 +164,7 @@
 	</main><!-- End #main -->
 
 
-
-
+	<script src="assets/js/jquery-3.6.0.min.js"></script>
 	<script type="text/javascript">
 		jQuery(document).ready(function() {
 			const urlParams = new URLSearchParams(window.location.search);
