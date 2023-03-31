@@ -23,7 +23,6 @@
 	<link href="assets/vendor/slick-slider/slick.min.css" rel="stylesheet">
 	<link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 	<link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-	<link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
 	<link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
 
 	<!-- Template Main CSS File -->
@@ -42,7 +41,7 @@
 	<header id="header" class="fixed-top ">
 		<div class="container d-flex align-items-center">
 
-			<a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>
+			<a href="index.html" class="logo me-auto"><img src="assets/img/victorialogo.png" alt="" class="img-fluid"></a>
 
 			<nav id="navbar" class="navbar">
 				<ul>
@@ -497,7 +496,9 @@
 			<source src="assets/img/preloader.mp4" type="video/mp4">
 		</video>
 	</div>
-	<a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+	<a href="#" class="back-to-top d-flex align-items-center justify-content-center">
+		<i class="bi bi-arrow-up-short"></i>
+	</a>
 
 	<!-- Vendor JS Files -->
 	<script src="assets/js/jquery-3.6.0.min.js"></script>

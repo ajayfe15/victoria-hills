@@ -1,6 +1,7 @@
 body {
 	font-family: 'Poppins', sans-serif;
 	color: #000;
+	font-size: 16px;
 }
 
 a {
@@ -359,6 +360,7 @@ section {
 	background-color: #fff;
 	overflow-y: auto;
 	transition: 0.3s;
+	max-height: fit-content;
 }
 
 .navbar-mobile a,
@@ -371,13 +373,13 @@ section {
 .navbar-mobile a:hover,
 .navbar-mobile .active,
 .navbar-mobile li:hover > a {
-	color: #47b2e4;
+	color: #C69651;
 }
 
 .navbar-mobile .getstarted,
 .navbar-mobile .getstarted:focus {
 	margin: 15px;
-	color: #37517e;
+	color: #C69651;
 }
 
 .navbar-mobile .dropdown ul {
@@ -926,6 +928,10 @@ textarea {
 	padding: 30px 10px 30px 50px;
 	background-color: #C69651;
 	color: #fff;
+}
+
+.commonLayoutContent p:last-child {
+	margin-bottom: 0;
 }
 
 .commonLayoutContent.right {

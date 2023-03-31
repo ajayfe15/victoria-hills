@@ -2,10 +2,13 @@ $(document).ready(function () {
 	$(".toggle").click(function () {
 		$(".sidebar-contact").toggleClass("active"), $(".toggle").toggleClass("active");
 	});
-
+	var backButton = '<span class="slick-arrow slick-prev">&#8592;</span>';
+	var nextButton = '<span class="slick-arrow slick-next">&#8594;</span>'
 	$('.gallerySlider').slick({
 		centerMode: true,
 		slidesToShow: 3,
+		prevArrow: backButton,
+		nextArrow: nextButton,
 		centerPadding: '0px',
 		arrows: false,
 		responsive: [{

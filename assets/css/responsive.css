@@ -4,8 +4,17 @@
 		padding: 50px 0;
 	}
 
-	.commonHeading h2 {
+	body {
+		font-size: 14px;
+	}
+
+	.commonHeading h2,
+	.touristDestination .commonHeading h2 {
 		font-size: 30px;
+	}
+
+	.commonHeading p {
+		letter-spacing: 4px;
 	}
 
 	.smallImgWrapper {
@@ -79,8 +88,55 @@
 		padding: 50px 0 100px;
 	}
 
+	.sidebar-contact {
+		right: -300px;
+		width: 300px;
+	}
+
 }
 
-@media only screen and (min-device-width : 767x) and (max-device-width : 991px) {}
+@media only screen and (min-device-width : 768px) and (max-device-width : 991px) {
+	section {
+		padding: 70px 0;
+	}
+
+	.commonHeading h2,
+	.touristDestination .commonHeading h2 {
+		font-size: 50px;
+	}
+
+	.smallImgWrapper {
+		margin-top: 10px;
+	}
+
+	.videoSection video,
+	.videoSection {
+		height: 75vh
+	}
+
+	.commonLayoutContent.right:after,
+	.commonLayoutContent.left:after {
+		display: none;
+	}
+
+	.commonLayoutContent.right,
+	.commonLayoutContent.left {
+		padding: 30px 30px;
+	}
+
+	.itemBoxContent {
+		width: 100%;
+		padding: 15px;
+		bottom: -100px;
+	}
+
+	.itemBoxContent h3 {
+		font-size: 20px;
+	}
+
+	.gallerySlider .slick-list {
+		padding: 50px 0 100px !important;
+	}
+}
 
 @media(min-width:1200px) {}

@@ -142,7 +142,7 @@
 
 		<div class="thankyoumain">
 			<div class="thankyou">
-				<div class="thankyoulogo"><a href="index.php"><img src="assets/img/logo.png" alt=""></a></div>
+				<div class="thankyoulogo"><a href="index.php"><img src="assets/img/victorialogo.png" alt=""></a></div>
 				<div class="thankyoutext">
 					<h3>Thank You!</h3>
 					<p>We appreciate you contacting us. One of our colleagues will get back to you shortly.</p>
