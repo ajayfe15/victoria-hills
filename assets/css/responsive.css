@@ -1,0 +1,180 @@
+@media(max-width:767px) {
+
+	section {
+		padding: 50px 0;
+	}
+
+	body {
+		font-size: 14px;
+	}
+
+	.commonHeading h2,
+	.touristDestination .commonHeading h2 {
+		font-size: 30px;
+	}
+
+	.commonHeading p {
+		letter-spacing: 4px;
+	}
+
+	.smallImgWrapper {
+		margin-top: 10px;
+	}
+
+	.commonLayoutContent.right:after,
+	.commonLayoutContent.left:after {
+		display: none;
+	}
+
+	.commonLayoutContent.right,
+	.commonLayoutContent.left {
+		padding: 15px 15px;
+	}
+
+	.itemBoxContent {
+		position: relative;
+		top: 0;
+		right: 0;
+		left: auto;
+		width: 100%;
+		padding: 20px 20px;
+	}
+
+	.gallerySlider {
+		padding: 0;
+		margin: 0 15px;
+		overflow: inherit;
+	}
+
+	.gallerySlider .slick-slide.slick-center .itemBoxContent {
+		position: relative;
+	}
+
+	.gallerySlider .slick-list {
+		margin: 0;
+		padding: 0px 0 !important;
+	}
+
+	.overviewImgBox img {
+		height: 225px;
+		object-fit: cover;
+	}
+
+	.overviewImgBoxWrapper .col-md-3:nth-child(2) {
+		transform: translateY(30px);
+	}
+
+	.overviewImgBoxWrapper .col-md-3:nth-child(4) {
+		transform: translateY(30px);
+	}
+
+	/*
+	.overviewImgBox {
+		margin-top: 30px;
+	}
+*/
+
+	.overviewImgBoxWrapper .col-6:nth-child(1) .overviewImgBox {
+		margin-bottom: 30px;
+	}
+
+	.parent {
+		display: block;
+	}
+
+	.tours + .tours {
+		margin-top: 15px;
+	}
+
+	.overview {
+		padding: 50px 0 100px;
+	}
+
+	.sidebar-contact {
+		right: -300px;
+		width: 300px;
+	}
+
+	#header.header-scrolled .logo img {
+		max-height: 100px;
+	}
+
+	.commonLayout .col-lg-6 {
+		padding: 0px 15px;
+	}
+
+	.slick-arrow {
+		position: absolute;
+		bottom: -35px;
+		z-index: 2;
+	}
+
+	.slick-next {
+		right: 0;
+	}
+
+	.copyright {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.siteAdrressBlock {
+		margin-top: 30px;
+	}
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 991px) {
+	section {
+		padding: 70px 0;
+	}
+
+	.commonHeading h2,
+	.touristDestination .commonHeading h2 {
+		font-size: 50px;
+	}
+
+	.smallImgWrapper {
+		margin-top: 10px;
+	}
+
+	.videoSection video,
+	.videoSection {
+		height: 75vh
+	}
+
+	.commonLayoutContent.right:after,
+	.commonLayoutContent.left:after {
+		display: none;
+	}
+
+	.commonLayoutContent.right,
+	.commonLayoutContent.left {
+		padding: 30px 30px;
+	}
+
+	.itemBoxContent {
+		width: 100%;
+		padding: 15px;
+		bottom: -100px;
+	}
+
+	.itemBoxContent h3 {
+		font-size: 20px;
+	}
+
+	.gallerySlider .slick-list {
+		padding: 50px 0 100px !important;
+	}
+
+	.overviewImgBoxWrapper .col-md-3:nth-child(even) {
+		transform: translateY(25px);
+	}
+}
+
+@media(min-width:1200px) {}
+
+@media(min-width:1600px) {
+	.overviewImgBoxWrapper .col-md-3:nth-child(even) {
+		transform: translateY(68px);
+	}
+}
