@@ -69,10 +69,10 @@
 	<main id="main">
 		<section class="videoSection" id="hero">
 			<video autoplay="" muted="" loop="" id="myVideo" class="d-none d-md-block">
-				<source src="assets/img/desktop-video.mp4" type="video/mp4">
+				<source src="assets/img/desktop-video-2.mp4" type="video/mp4">
 			</video>
 			<video autoplay="" muted="" loop="" id="myVideo" class="d-block d-md-none">
-				<source src="assets/img/mobile-video-updated.mp4" type="video/mp4">
+				<source src="assets/img/mobile-video-2.mp4" type="video/mp4">
 			</video>
 		</section>
 
@@ -235,7 +235,7 @@
 				</div>
 
 				<div class="item">
-					<a href="assets/img/desktop-video.mp4" data-lity class="gallerySliderVideo">
+					<a href="assets/img/desktop-video-2.mp4" data-lity class="gallerySliderVideo">
 						<div class="itemBox position-relative">
 							<img src="assets/img/gallery/3.jpg" alt="" loading="lazy" class="img-fluid">
 							<div class="playButton">
