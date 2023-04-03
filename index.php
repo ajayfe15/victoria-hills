@@ -26,6 +26,7 @@
 	<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
 
 	<!-- Vendor CSS Files -->
+	<link rel="stylesheet" href="assets/vendor/lity/lity.min.css" />
 	<link href="assets/vendor/slick-slider/slick.min.css" rel="stylesheet">
 	<link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 	<link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
@@ -67,9 +68,11 @@
 
 	<main id="main">
 		<section class="videoSection" id="#hero">
-			<video autoplay="" muted="" loop="" id="myVideo">
-				<source src="assets/img/desktop-video.mp4" class="d-none d-md-block" type="video/mp4">
-				<source src="assets/img/mobile-video-updated.mp4" class="d-block d-md-none" type="video/mp4">
+			<video autoplay="" muted="" loop="" id="myVideo" class="d-none d-md-block">
+				<source src="assets/img/desktop-video.mp4" type="video/mp4">
+			</video>
+			<video autoplay="" muted="" loop="" id="myVideo" class="d-block d-md-none">
+				<source src="assets/img/mobile-video-updated.mp4" type="video/mp4">
 			</video>
 		</section>
 
@@ -178,51 +181,59 @@
 			</div>
 
 			<div class="gallerySlider">
-				<a href="assets/img/desktop-video.mp4" class="item">
-					<div class="itemBox position-relative">
-						<img src="assets/img/gallery/1-updated.jpg" alt="" loading="lazy" class="img-fluid">
-						<div class="itemBoxContent">
-							<h3>VICTORIAN ERA</h3>
-							<p>The Victorian era was a time that gave us boundless monumental structures, an artistic approach towards life. and on experience that hos transcended through generations. An era that has stayed timeless with its eternal appeal.</p>
+				<div class="item">
+					<a href="assets/img/gallery/1-updated.jpg" data-lity class="gallerySliderVideo">
+						<div class="itemBox position-relative">
+							<img src="assets/img/gallery/1-updated.jpg" alt="" loading="lazy" class="img-fluid">
+							<div class="itemBoxContent">
+								<h3>VICTORIAN ERA</h3>
+								<p>The Victorian era was a time that gave us boundless monumental structures, an artistic approach towards life. and on experience that hos transcended through generations. An era that has stayed timeless with its eternal appeal.</p>
+							</div>
 						</div>
-					</div>
-				</a>
+					</a>
+				</div>
 
-				<a href="assets/img/desktop-video.mp4" class="item gallerySliderVideo">
-					<div class="itemBox position-relative">
-						<img src="assets/img/gallery/2.jpg" alt="" loading="lazy" class="img-fluid">
-						<div class="playButton">
-							<img src="assets/img/play.png" alt="" loading="lazy" class="img-fluid">
+				<div class="item">
+					<a href="assets/img/desktop-video.mp4" data-lity class="gallerySliderVideo">
+						<div class="itemBox position-relative">
+							<img src="assets/img/gallery/2.jpg" alt="" loading="lazy" class="img-fluid">
+							<div class="playButton">
+								<img src="assets/img/play.png" alt="" loading="lazy" class="img-fluid">
+							</div>
+							<div class="itemBoxContent">
+								<h3>VICTORIAN ERA</h3>
+								<p>The Victorian era was a time that gave us boundless monumental structures, an artistic approach towards life. and on experience that hos transcended through generations. An era that has stayed timeless with its eternal appeal.</p>
+							</div>
 						</div>
-						<div class="itemBoxContent">
-							<h3>VICTORIAN ERA</h3>
-							<p>The Victorian era was a time that gave us boundless monumental structures, an artistic approach towards life. and on experience that hos transcended through generations. An era that has stayed timeless with its eternal appeal.</p>
-						</div>
-					</div>
-				</a>
+					</a>
+				</div>
 
-				<a href="assets/img/desktop-video.mp4" class="item">
-					<div class="itemBox position-relative">
-						<img src="assets/img/gallery/3.jpg" alt="" loading="lazy" class="img-fluid">
-						<div class="itemBoxContent">
-							<h3>VICTORIAN ERA</h3>
-							<p>The Victorian era was a time that gave us boundless monumental structures, an artistic approach towards life. and on experience that hos transcended through generations. An era that has stayed timeless with its eternal appeal.</p>
+				<div class="item">
+					<a href="assets/img/desktop-video.mp4" data-lity class="gallerySliderVideo">
+						<div class="itemBox position-relative">
+							<img src="assets/img/gallery/3.jpg" alt="" loading="lazy" class="img-fluid">
+							<div class="itemBoxContent">
+								<h3>VICTORIAN ERA</h3>
+								<p>The Victorian era was a time that gave us boundless monumental structures, an artistic approach towards life. and on experience that hos transcended through generations. An era that has stayed timeless with its eternal appeal.</p>
+							</div>
 						</div>
-					</div>
-				</a>
+					</a>
+				</div>
 
-				<a href="assets/img/desktop-video.mp4" class="item gallerySliderVideo">
-					<div class="itemBox position-relative">
-						<img src="assets/img/gallery/1-updated.jpg" alt="" loading="lazy" class="img-fluid">
-						<div class="playButton">
-							<img src="assets/img/play.png" alt="" loading="lazy" class="img-fluid">
+				<div class="item">
+					<a href="assets/img/desktop-video.mp4" data-lity class="gallerySliderVideo">
+						<div class="itemBox position-relative">
+							<img src="assets/img/gallery/2.jpg" alt="" loading="lazy" class="img-fluid">
+							<div class="playButton">
+								<img src="assets/img/play.png" alt="" loading="lazy" class="img-fluid">
+							</div>
+							<div class="itemBoxContent">
+								<h3>VICTORIAN ERA</h3>
+								<p>The Victorian era was a time that gave us boundless monumental structures, an artistic approach towards life. and on experience that hos transcended through generations. An era that has stayed timeless with its eternal appeal.</p>
+							</div>
 						</div>
-						<div class="itemBoxContent">
-							<h3>VICTORIAN ERA</h3>
-							<p>The Victorian era was a time that gave us boundless monumental structures, an artistic approach towards life. and on experience that hos transcended through generations. An era that has stayed timeless with its eternal appeal.</p>
-						</div>
-					</div>
-				</a>
+					</a>
+				</div>
 			</div>
 		</section>
 
@@ -530,6 +541,7 @@
 	<script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 	<script src="assets/vendor/slick-slider/slick.min.js"></script>
 	<script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+	<script src="assets/vendor/lity/lity.min.js"></script>
 
 	<!-- Template Main JS File -->
 	<script src="assets/js/ajax-contact.js"></script>
