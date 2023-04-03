@@ -237,7 +237,7 @@
 				<div class="commonLayout">
 					<div class="row align-items-center">
 						<div class="col-lg-6">
-							<img src="assets/img/plot/1.jpg" class="img-fluid" alt="" loading="lazy">
+							<img src="assets/img/villas/villa-1.jpg" class="img-fluid" alt="" loading="lazy">
 						</div>
 						<div class="col-lg-6">
 							<div class="smallImgWrapper d-flex flex-wrap gap-2">
