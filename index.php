@@ -168,6 +168,13 @@
 						<img src="assets/img/sitemap.jpg" class="img-fluid" alt="" loading="lazy">
 					</a>
 				</div>
+
+				<div class="broucheureButton mt-5 text-center">
+					<!--					<a class="btn btn-primary" data-bs-target="#popup-modalForm" data-bs-toggle="modal" id="download-opp-doc">Download Button</a>-->
+					<button class="btn btn-default" data-bs-target="#popup-modalForm" data-bs-toggle="modal" id="download-opp-doc" type="button">
+						<span>Download Brochure</span>
+					</button>
+				</div>
 			</div>
 		</section>
 
@@ -194,16 +201,35 @@
 				</div>
 
 				<div class="item">
-					<a href="assets/img/desktop-video.mp4" data-lity class="gallerySliderVideo">
+					<a href="assets/img/gallery/gallery-2.mp4" data-lity class="gallerySliderVideo">
 						<div class="itemBox position-relative">
 							<img src="assets/img/gallery/2.jpg" alt="" loading="lazy" class="img-fluid">
 							<div class="playButton">
 								<img src="assets/img/play.png" alt="" loading="lazy" class="img-fluid">
 							</div>
+							<!--
 							<div class="itemBoxContent">
 								<h3>VICTORIAN ERA</h3>
 								<p>The Victorian era was a time that gave us boundless monumental structures, an artistic approach towards life. and on experience that hos transcended through generations. An era that has stayed timeless with its eternal appeal.</p>
 							</div>
+-->
+						</div>
+					</a>
+				</div>
+
+				<div class="item">
+					<a href="assets/img/gallery/gallery-2.mp4" data-lity class="gallerySliderVideo">
+						<div class="itemBox position-relative">
+							<img src="assets/img/gallery/2.jpg" alt="" loading="lazy" class="img-fluid">
+							<div class="playButton">
+								<img src="assets/img/play.png" alt="" loading="lazy" class="img-fluid">
+							</div>
+							<!--
+							<div class="itemBoxContent">
+								<h3>VICTORIAN ERA</h3>
+								<p>The Victorian era was a time that gave us boundless monumental structures, an artistic approach towards life. and on experience that hos transcended through generations. An era that has stayed timeless with its eternal appeal.</p>
+							</div>
+-->
 						</div>
 					</a>
 				</div>
@@ -212,28 +238,20 @@
 					<a href="assets/img/desktop-video.mp4" data-lity class="gallerySliderVideo">
 						<div class="itemBox position-relative">
 							<img src="assets/img/gallery/3.jpg" alt="" loading="lazy" class="img-fluid">
+							<div class="playButton">
+								<img src="assets/img/play.png" alt="" loading="lazy" class="img-fluid">
+							</div>
+							<!--
 							<div class="itemBoxContent">
 								<h3>VICTORIAN ERA</h3>
 								<p>The Victorian era was a time that gave us boundless monumental structures, an artistic approach towards life. and on experience that hos transcended through generations. An era that has stayed timeless with its eternal appeal.</p>
 							</div>
+-->
 						</div>
 					</a>
 				</div>
 
-				<div class="item">
-					<a href="assets/img/desktop-video.mp4" data-lity class="gallerySliderVideo">
-						<div class="itemBox position-relative">
-							<img src="assets/img/gallery/2.jpg" alt="" loading="lazy" class="img-fluid">
-							<div class="playButton">
-								<img src="assets/img/play.png" alt="" loading="lazy" class="img-fluid">
-							</div>
-							<div class="itemBoxContent">
-								<h3>VICTORIAN ERA</h3>
-								<p>The Victorian era was a time that gave us boundless monumental structures, an artistic approach towards life. and on experience that hos transcended through generations. An era that has stayed timeless with its eternal appeal.</p>
-							</div>
-						</div>
-					</a>
-				</div>
+
 			</div>
 		</section>
 
@@ -535,6 +553,13 @@
 	<a href="#" class="back-to-top d-flex align-items-center justify-content-center">
 		<i class="bi bi-arrow-up-short"></i>
 	</a>
+
+	<!--
+	<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#popup-modalForm">
+		Launch demo modal
+	</button>
+-->
+	<input type="hidden" id="download-opportunity" value="0">
 
 	<!-- Vendor JS Files -->
 	<script src="assets/js/jquery-3.6.0.min.js"></script>

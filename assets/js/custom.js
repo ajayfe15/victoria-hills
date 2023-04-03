@@ -19,7 +19,8 @@ $(document).ready(function () {
 				settings: {
 					arrows: true,
 					centerMode: true,
-					slidesToShow: 3
+					slidesToShow: 3,
+					draggable: false,
 				}
                 },
 			{

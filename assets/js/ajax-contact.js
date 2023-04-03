@@ -88,6 +88,14 @@ $(document).ready(function () {
 				success: function (result) {
 
 					if (result == 1) {
+						if ($('#download-opportunity').val() == '1') {
+							//$('#pdf-link')[0].click(); 
+							var link = document.createElement('a');
+							link.href = "doc/dummy.pdf";
+							link.download = "doc/dummy.pdf";
+							link.click();
+							link.remove();
+						}
 						window.location.replace("thank-you.php");
 					} else if (result == 0) {
 						$('#form1').prop('disabled', true);
@@ -272,6 +280,9 @@ $(document).ready(function () {
 		}
 	});
 
-
+	$(document).on("click", "#download-opp-doc", function (eve) {
+		eve.preventDefault();
+		$('#download-opportunity').val(1);
+	});
 
 });
