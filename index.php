@@ -527,7 +527,7 @@
 	</div>
 	<div id="preloader">
 		<video width="320" height="240" autoplay="" loop="" muted playsinline="">
-			<source src="assets/img/preloader.mp4" type="video/mp4">
+			<source src="assets/img/preloader-new.mp4" type="video/mp4">
 		</video>
 	</div>
 	<a href="#" class="back-to-top d-flex align-items-center justify-content-center">
