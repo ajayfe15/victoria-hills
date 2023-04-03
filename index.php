@@ -48,7 +48,7 @@
 	<header id="header" class="fixed-top ">
 		<div class="container d-flex align-items-center">
 
-			<a href="index.html" class="logo me-auto"><img src="assets/img/victorialogo.png" alt="" class="img-fluid"></a>
+			<a href="index.html" class="logo me-auto"><img src="assets/img/victorialogo-updated.png" alt="" class="img-fluid"></a>
 
 			<nav id="navbar" class="navbar">
 				<ul>
@@ -253,14 +253,16 @@
 						<div class="col-lg-6">
 							<div class="smallImgWrapper d-flex flex-wrap gap-2">
 								<div class="img">
-									<img src="assets/img/plot/2.jpg" class="img-fluid" alt="" loading="lazy">
+									<img src="assets/img/villas/villa-2.jpg" class="img-fluid" alt="" loading="lazy">
 								</div>
+								<!--
 								<div class="img">
 									<img src="assets/img/plot/3.jpg" class="img-fluid" alt="" loading="lazy">
 								</div>
 								<div class="img">
 									<img src="assets/img/plot/4.jpg" class="img-fluid" alt="" loading="lazy">
 								</div>
+-->
 							</div>
 							<div class="commonLayoutContent left position-relative">
 								<p>The Villas at Victoria Hills are available in 2BHK, 3BHK and 4BHK configurations, providing ample space for comfortable living. </p>
