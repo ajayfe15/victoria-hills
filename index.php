@@ -67,7 +67,7 @@
 	</header><!-- End Header -->
 
 	<main id="main">
-		<section class="videoSection" id="#hero">
+		<section class="videoSection" id="hero">
 			<video autoplay="" muted="" loop="" id="myVideo" class="d-none d-md-block">
 				<source src="assets/img/desktop-video.mp4" type="video/mp4">
 			</video>
@@ -271,7 +271,7 @@
 						<div class="col-lg-6">
 							<div class="smallImgWrapper d-flex flex-wrap gap-2">
 								<div class="img">
-									<img src="assets/img/villas/villa-2.jpg" class="img-fluid" alt="" loading="lazy">
+									<img src="assets/img/villas/villa-2-updated-2.png" class="img-fluid" alt="" loading="lazy">
 								</div>
 								<!--
 								<div class="img">
@@ -538,10 +538,12 @@
 	</div>
 
 	<div class="stickyIcons position-fixed">
+		<!--
 		<a href="">
 			<img src="assets/img/whatsapp-icon.png" class="img-fluid" loading="lazy">
 		</a>
-		<a href="">
+-->
+		<a href="tel:9219891011">
 			<img src="assets/img/call.png" class="img-fluid" loading="lazy">
 		</a>
 	</div>
@@ -575,6 +577,14 @@
 	<script src="assets/js/main.js"></script>
 	<script src="assets/js/custom.js"></script>
 
+	<script>
+		let modalTitle = $('.modal-body h2').text();
+		let brouchureText = 'Download Brochure'
+		$('#download-opp-doc').on('click', function() {
+			$('.modal-body h2').text(brouchureText);
+		});
+
+	</script>
 </body>
 
 </html>

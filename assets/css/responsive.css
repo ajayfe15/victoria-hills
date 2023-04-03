@@ -165,8 +165,16 @@
 	.gallerySlider .slick-list {
 		padding: 50px 0 100px !important;
 	}
+
+	.overviewImgBoxWrapper .col-md-3:nth-child(even) {
+		transform: translateY(25px);
+	}
 }
 
 @media(min-width:1200px) {}
 
-@media(min-width:1600px) {}
+@media(min-width:1600px) {
+	.overviewImgBoxWrapper .col-md-3:nth-child(even) {
+		transform: translateY(68px);
+	}
+}
