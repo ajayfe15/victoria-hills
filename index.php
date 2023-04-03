@@ -169,7 +169,7 @@
 					</a>
 				</div>
 
-				<div class="broucheureButton mt-5 text-center">
+				<div class="broucheureButton mt-5 text-center d-none">
 					<!--					<a class="btn btn-primary" data-bs-target="#popup-modalForm" data-bs-toggle="modal" id="download-opp-doc">Download Button</a>-->
 					<button class="btn btn-default" data-bs-target="#popup-modalForm" data-bs-toggle="modal" id="download-opp-doc" type="button">
 						<span>Download Brochure</span>
