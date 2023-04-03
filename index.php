@@ -432,6 +432,9 @@
 					<div class="left">
 						Copyright &copy; 2023. All Rights Reserved by Victoria Hills.
 					</div>
+					<div class="center">
+						Mahar RERA No :- <strong>P52000050297</strong>
+					</div>
 					<div class="right">
 						Designed & Developed by <a href="https://firsteconomy.com/" target="_blank">First Economy</a>
 					</div>
