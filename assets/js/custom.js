@@ -11,6 +11,8 @@ $(document).ready(function () {
 		slidesToShow: 3,
 		infinite: true,
 		prevArrow: backButton,
+		adaptiveHeight: true,
+		draggable: false,
 		nextArrow: nextButton,
 		centerPadding: '0px',
 		arrows: false,
@@ -20,7 +22,8 @@ $(document).ready(function () {
 					arrows: true,
 					centerMode: true,
 					slidesToShow: 3,
-					draggable: false,
+					draggable: true,
+					adaptiveHeight: true
 				}
                 },
 			{

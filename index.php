@@ -309,7 +309,7 @@
 				</div>
 
 				<div class="connectivityMap">
-					<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15082.32467709063!2d72.8954382!3d19.0821438!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c7cc87cc8ca5%3A0x7734f91b7b4c3f77!2sFirst%20Economy%20Pvt%20Ltd!5e0!3m2!1sen!2sin!4v1680176921502!5m2!1sen!2sin" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3771.7545581517675!2d73.4887588!3d19.0305341!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bdd59829b7a757f%3A0x67575449a72c956a!2sVictoria%20hills!5e0!3m2!1sen!2sin!4v1680582796178!5m2!1sen!2sin" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 				</div>
 			</div>
 		</section>
@@ -380,7 +380,7 @@
 
 					<div class="col-6 col-md-3">
 						<div class="counterBox text-center">
-							<h3><span class="counter">80</span>+</h3>
+							<h3><span class="counter">140</span>+</h3>
 							<p>Happy Customers</p>
 						</div>
 					</div>

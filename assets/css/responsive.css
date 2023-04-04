@@ -21,6 +21,10 @@
 		margin-top: 10px;
 	}
 
+	.videoSection video {
+		object-fit: cover;
+	}
+
 	.commonLayoutContent.right:after,
 	.commonLayoutContent.left:after {
 		display: none;
