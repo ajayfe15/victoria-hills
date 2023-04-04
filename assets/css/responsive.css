@@ -22,7 +22,7 @@
 	}
 
 	.videoSection video {
-		object-fit: cover;
+		object-fit: fill;
 	}
 
 	.commonLayoutContent.right:after,
@@ -124,6 +124,11 @@
 
 	.siteAdrressBlock {
 		margin-top: 30px;
+	}
+
+	.videoSection,
+	.videoSection video {
+		height: 85vh;
 	}
 }
 
