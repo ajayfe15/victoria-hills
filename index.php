@@ -68,10 +68,10 @@
 
 	<main id="main">
 		<section class="videoSection" id="hero">
-			<video autoplay="" muted="" loop="" id="myVideo" class="d-none d-md-block">
+			<video autoplay="" muted="" loop="" id="myVideo" playsinline="" class="d-none d-md-block">
 				<source src="assets/img/desktop-video-3.mp4" type="video/mp4">
 			</video>
-			<video autoplay="" muted="" loop="" id="myVideo" class="d-block d-md-none">
+			<video autoplay="" muted="" loop="" id="myVideo" playsinline="" class="d-block d-md-none">
 				<source src="assets/img/mobile-video-3.mp4" type="video/mp4">
 			</video>
 		</section>
