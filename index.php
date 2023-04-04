@@ -353,6 +353,56 @@
 						</div>
 					</div>
 				</div>
+
+				<div class="row newSection">
+					<div class="col-md-6">
+						<div class="newSectionBox">
+							<div class="heading">
+								<h3>Timeless Location Karjat</h3>
+							</div>
+							<p>Shingdhol, located just 100 kilometers from Mumbai, is a verdant paradise that boasts rolling green hills, tranquil countryside, meandering rivers, and roads that seem to wind their way through the clouds. For those seeking respite from the chaos of urban life. Shingdhol offers the perfect escape, transporting you to a world of serenity and natural beauty.</p>
+						</div>
+					</div>
+
+					<div class="col-md-6">
+						<div class="newSectionBox">
+							<div class="heading">
+								<h3>Proximity</h3>
+							</div>
+							<p>Karjat is seamlessly connected to the major transport means with top-notch infrastructure. Be it roads or railways, NH7, Mumbai-Pune Expressway or Karjat Railway station, you will not feel marooned at any cost.</p>
+						</div>
+					</div>
+
+					<div class="col-md-6">
+						<div class="newSectionBox">
+							<div class="heading">
+								<h3>Space & Eco-sensitivity</h3>
+							</div>
+							<p>Kariat boasts a population density of 400 people per square kilometer, a feat that may
+								seem impressive to city dwellers. Located within an eco-sensitive zone, Karat is protected from the proliferation of concrete development and will remain a ha or natural beauty.</p>
+						</div>
+					</div>
+
+					<div class="col-md-6">
+						<div class="newSectionBox">
+							<div class="heading">
+								<h3>Low Investment, High Appreciation</h3>
+							</div>
+							<p>NA Plots are an incredible value with a mind-blowing price range. This is a once-in-a-lifetime investment opportunity with great appreciation potential. Do not miss out on the chance to own a Majestic-living NA Plot that offers unbeatable value for money</p>
+						</div>
+					</div>
+
+					<div class="col-md-6">
+						<div class="newSectionBox">
+							<div class="heading">
+								<h3>Expansions</h3>
+							</div>
+							<p>Karat has opportunities for investment and growth due to its low population density, modern amenities, and natural beauty. Infrastructural projects, including the Mumbai Trans Harbour Link, Navi Mumbai International Airport, and Jo University are also contributing to Karjat's attractivenes!</p>
+						</div>
+					</div>
+
+
+				</div>
 			</div>
 		</section>
 

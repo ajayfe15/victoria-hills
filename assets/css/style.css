@@ -1038,4 +1038,32 @@ textarea {
 	width: 40px;
 }
 
-.broucheureButton a {}
+.newSection {
+	margin-top: 50px;
+}
+
+.newSection .col-md-6:not(:last-child) {
+	margin-bottom: 30px;
+}
+
+.newSectionBox {
+	height: 100%;
+	padding: 30px 30px;
+	border-radius: 16px;
+	background-color: #fff;
+	box-shadow: 5px 17px 50px -3px rgba(0, 0, 0, 0.1);
+}
+
+.newSectionBox h3 {
+	font-size: 24px;
+	color: #C69651;
+	font-family: 'Playfair Display', serif;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #a9a3a3;
+}
+
+.newSectionBox p {}
+
+.newSectionBox p:last-child {
+	margin-bottom: 0;
+}

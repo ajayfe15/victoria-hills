@@ -20,8 +20,8 @@ $(document).ready(function () {
 				breakpoint: 768,
 				settings: {
 					arrows: true,
-					centerMode: true,
-					slidesToShow: 3,
+					centerMode: false,
+					slidesToShow: 1,
 					draggable: true,
 					adaptiveHeight: true
 				}
